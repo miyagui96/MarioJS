@@ -22,8 +22,8 @@ const loop = setInterval(() => {
     mario.style.animation = 'none';
     mario.style.bottom = `${pipePosition}px`;
 
-    mario.src = 'images/micaeldead.png';
-    mario.style.width = '200px';
+    mario.src = 'images/death.webp';
+    mario.style.width = '75px';
     mario.style.marginLeft = '50px';
 
     cloud.style.animationPlayState = 'paused';
